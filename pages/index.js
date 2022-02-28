@@ -1,17 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Header from './components/Header'
+import Sidebar from './components/Sidebar'
 
 export default function Home() {
   return (
-    <div>
+    <div className='min-w-[600px]'>
       <Head>
         <title>Slack Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Body */}
       <Header />
+      {/* Sidebar */}
+      <Sidebar />
 
       {/* Footer */}
 
