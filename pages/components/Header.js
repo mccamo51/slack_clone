@@ -1,9 +1,9 @@
 import { FieldTimeOutlined, InfoCircleOutlined, SearchOutlined } from "@ant-design/icons/lib/icons";
-import { IconButton } from "@mui/material";
+import { Avatar, IconButton } from "@mui/material";
 import React from "react";
 
 function Header() {
-  return <div className="w-fill bg-HeaderBG h-[40px] flex justify-center">
+  return <div className="w-fill bg-HeaderBG h-[40px] flex justify-center grid-cols-3">
       <IconButton>
           <FieldTimeOutlined style={{ color: "white" ,fontSize: "20px"}}/>
       </IconButton>
@@ -17,6 +17,9 @@ function Header() {
       <IconButton>
           <InfoCircleOutlined style={{ color: "white" ,fontSize: "20px"}}/>
       </IconButton>
+      <div className="float-right">
+          <Avatar />
+      </div>
      
   </div>;
 }
