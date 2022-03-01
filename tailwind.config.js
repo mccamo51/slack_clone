@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       colors: {
         HeaderBG: "#350D36",
-        seachBG: "#3F0E40"
+        seachBG: "#3F0E40",
+        leftSideBar:"#3F0E40",
+
       }
     },
   },
